@@ -1,2 +1,0 @@
-# volume-owl
-volume owlのアプリ
