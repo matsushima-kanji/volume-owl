@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Owl - あなたのプライバシーを守るオーディオガード</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <img src="volume-owl-icon.png" alt="Volume Owl" class="app-icon">
+                </div>
+                <h1>Volume Owl</h1>
+                <p class="hero-subtitle">イヤホンが外れた時の音漏れを防ぐ、賢いオーディオガード</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">無料ダウンロード</a>
+                    <a href="#features" class="btn btn-secondary">機能を見る</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="problem" class="section">
+        <div class="container">
+            <h2>こんな経験ありませんか？</h2>
+            <div class="problem-grid">
+                <div class="problem-item">
+                    <div class="problem-icon">🚃</div>
+                    <h3>電車でアニメソングが...</h3>
+                    <p>イヤホンが外れているのに気づかず、アニメのテーマソングが電車の中で響き渡ってしまった</p>
+                </div>
+                <div class="problem-item">
+                    <div class="problem-icon">🙈</div>
+                    <h3>恋愛ドラマのあのシーン</h3>
+                    <p>カフェでイヤホンが抜けて、恋愛ドラマのベッドシーンの音声が周りの人に聞こえて視線が痛かった</p>
+                </div>
+                <div class="problem-item">
+                    <div class="problem-icon">😵</div>
+                    <h3>YouTubeの広告が...</h3>
+                    <p>図書館で勉強中、イヤホンが外れてマッチングアプリの広告音声が静寂な館内に響き、周りの学生に振り返られた</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="section section-dark">
+        <div class="container">
+            <h2>Volume Owlが解決します</h2>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h3>🦉 賢いフクロウがあなたを守ります</h3>
+                    <p>Volume Owlは、あなたのMacのオーディオ出力を常に監視し、イヤホンが外れた瞬間に音声をストップ。プライバシーと快適さを両立します。</p>
+                    <ul>
+                        <li>✅ リアルタイムでオーディオデバイスを監視</li>
+                        <li>✅ イヤホン切断を瞬時に検知</li>
+                        <li>✅ 内蔵スピーカーでの音声出力を即座にブロック</li>
+                        <li>✅ ユーザーの意思確認後に再生再開</li>
+                    </ul>
+                </div>
+                <div class="solution-demo">
+                    <div class="demo-screen">
+                        <div class="demo-header">Volume Owl</div>
+                        <div class="demo-content">
+                            <div class="demo-status">
+                                <span class="demo-owl">🦉</span>
+                                <span>監視中</span>
+                            </div>
+                            <div class="demo-device">
+                                <span>🎧</span>
+                                <span>イヤホン接続中</span>
+                            </div>
+                            <button class="demo-button" onclick="showWarningDemo()">
+                                ⚠️ 警告デモを見る
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2>主な機能</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">👁️</div>
+                    <h3>リアルタイム監視</h3>
+                    <p>システムトレイから常時オーディオデバイスの状態を監視し、変化を瞬時に検知します。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <h3>瞬間ミュート</h3>
+                    <p>内蔵スピーカーでの音声再生を検知した瞬間、自動的にシステム音声をミュートします。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <h3>ユーザー確認</h3>
+                    <p>音漏れ防止後、再生を続けるかどうかユーザーに確認を求めます。誤作動を防ぎます。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⏰</div>
+                    <h3>スヌーズ機能</h3>
+                    <p>一時的に監視を停止したい時は、5分〜1時間のスヌーズ設定が可能です。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔋</div>
+                    <h3>軽量設計</h3>
+                    <p>システムリソースを最小限に抑えた軽量設計で、バッテリーやパフォーマンスに影響しません。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>プライバシー重視</h3>
+                    <p>音声データの収集や送信は一切行いません。すべてローカルで処理されます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section section-dark">
+        <div class="container">
+            <h2>動作の流れ</h2>
+            <div class="workflow">
+                <div class="workflow-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>常時監視</h3>
+                        <p>フクロウがオーディオデバイスと音声再生状態を監視</p>
+                    </div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>危険検出</h3>
+                        <p>内蔵スピーカーでの音声再生を検知</p>
+                    </div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>即座にミュート</h3>
+                        <p>システム音声を瞬時にミュート</p>
+                    </div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>ユーザー確認</h3>
+                        <p>再生継続の意思をユーザーに確認</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>ユーザーの声</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>「イヤホンが繋がっていると思いきや外れていて、電車の中で音楽を流してしまって恥ずかしい思いをしたことがありました。もうそんな心配をしなくて済みます。」</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>実近さん</strong>
+                        <span>ITエンジニア</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>「カフェでイヤホンが抜けて、恋愛系YouTubeの音声が大音量で流れて周りの視線が痛かったです。もうあんな恥ずかしい思いはしたくありません。」</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>木村さん</strong>
+                        <span>デザイナー</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>「図書館でイヤホンが外れているのに気づかず、アニメのOPを爆音で流してしまい、司書さんに怒られました。今では安心して勉強できます。」</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>松島先生</strong>
+                        <span>大学講師</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="section section-primary">
+        <div class="container">
+            <div class="download-content">
+                <h2>今すぐダウンロード</h2>
+                <p>Volume Owlは完全無料でご利用いただけます</p>
+                <div class="download-info">
+                    <div class="download-requirements">
+                        <h3>システム要件</h3>
+                        <ul>
+                            <li>macOS 11.0以降</li>
+                            <li>Intel Mac / Apple Silicon Mac対応</li>
+                            <li>約5MBのディスク容量</li>
+                        </ul>
+                    </div>
+                    <div class="download-button-container">
+                        <a href="volume_owl.zip" class="btn btn-download" download="volume_owl.zip">
+                            <span class="download-icon">⬇️</span>
+                            Volume Owl v1.0をダウンロード
+                            <span class="download-size">(macOS用 - 5.2MB)</span>
+                        </a>
+                        <p class="download-note">※実際のアプリケーションファイルです</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">🦉 Volume Owl</div>
+                    <p>あなたのプライバシーを守るオーディオガード</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>アプリ</h4>
+                        <ul>
+                            <li><a href="#download">ダウンロード</a></li>
+                            <li><a href="#features">機能</a></li>
+                            <li><a href="#how-it-works">使い方</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>サポート</h4>
+                        <ul>
+                            <li><a href="#">よくある質問</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="#">バグレポート</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>開発者</h4>
+                        <ul>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">ブログ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Volume Owl. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Warning Demo Modal -->
+    <div id="warningModal" class="modal">
+        <div class="modal-content">
+            <div class="warning-dialog">
+                <div class="warning-owl">🦉ﾎｳ...</div>
+                <div class="warning-message">内臓スピーカーから音を出しても良いのかね？</div>
+                <div class="warning-buttons">
+                    <button class="warning-btn warning-btn-no" onclick="closeWarningDemo()">いいえ、やめる</button>
+                    <button class="warning-btn warning-btn-yes" onclick="closeWarningDemo()">はい、再生する</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
